@@ -9,12 +9,14 @@
       content="店名を選ぶだけで、手持ちカードを還元率順に比較できます。"
     />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kizuna0411.github.io/dorepay-app-download/" />
+    <meta property="og:site_name" content="DorePay" />
     <meta property="og:title" content="店ごとに、いちばん得するカードがわかる。" />
     <meta
       property="og:description"
       content="店名を選ぶだけで、手持ちカードを還元率順に比較できます。"
     />
-    <meta property="og:type" content="website" />
     <meta property="og:image" content="https://kizuna0411.github.io/dorepay-app-download/dorepay-x-card.png" />
     <meta property="og:image:width" content="1400" />
     <meta property="og:image:height" content="800" />
@@ -37,30 +39,79 @@
     />
 
     <link rel="canonical" href="https://apps.apple.com/jp/app/id6758648752" />
-    <meta http-equiv="refresh" content="1; url=https://apps.apple.com/jp/app/id6758648752" />
     <style>
-      html {
+      :root {
         color: #0d1b35;
         background: #fbfcfa;
         font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
       }
 
       body {
-        display: grid;
         min-height: 100vh;
         margin: 0;
-        place-items: center;
+        background: #fbfcfa;
       }
 
-      a {
-        color: inherit;
+      main {
+        box-sizing: border-box;
+        width: min(960px, 100%);
+        margin: 0 auto;
+        padding: 24px;
+        text-align: center;
+      }
+
+      .hero {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 18px;
+        box-shadow: 0 14px 40px rgba(13, 27, 53, 0.12);
+      }
+
+      h1 {
+        margin: 28px 0 10px;
+        font-size: clamp(1.45rem, 3vw, 2.15rem);
+        line-height: 1.35;
+      }
+
+      p {
+        margin: 0;
+        color: #4c5d6d;
+        font-size: 1rem;
+        line-height: 1.7;
+      }
+
+      .cta {
+        display: inline-block;
+        margin-top: 22px;
+        padding: 12px 22px;
+        border-radius: 999px;
+        color: #fff;
+        background: #0d1b35;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .cta:focus-visible,
+      .cta:hover {
+        background: #1e3158;
       }
     </style>
-    <script>
-      window.location.replace("https://apps.apple.com/jp/app/id6758648752");
-    </script>
   </head>
   <body>
-    <p><a href="https://apps.apple.com/jp/app/id6758648752">App StoreでDorePayを開く</a></p>
+    <main>
+      <a href="https://apps.apple.com/jp/app/id6758648752" aria-label="App StoreでDorePayを開く">
+        <img
+          class="hero"
+          src="https://kizuna0411.github.io/dorepay-app-download/dorepay-x-card.png"
+          alt="DorePayの機能とアプリ画面を紹介する画像"
+          width="1400"
+          height="800"
+        />
+      </a>
+      <h1>店ごとに、いちばん得するカードがわかる。</h1>
+      <p>店名を選ぶだけで、手持ちカードを還元率順に比較できます。</p>
+      <a class="cta" href="https://apps.apple.com/jp/app/id6758648752">App StoreでDorePayを開く</a>
+    </main>
   </body>
 </html>
